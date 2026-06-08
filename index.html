@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Mithun Chandra Adhikary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-[#05050f] text-white font-sans">
+
+
+<!-- Hero Section -->
+<section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+    
+    <!-- Profile Image -->
+    <div class="mb-8">
+        <img src="asset/img/mithun_chandra_adhekary.png" alt="Ponkaj" class="w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-blue-500/30 object-cover shadow-2xl transition-transform hover:scale-105">
+    </div>
+
+    <!-- Content -->
+    <div>
+        <h1 class="text-6xl font-bold mb-4">I'm <span class="gradient-text">Mithun</span> Chandra <span class="gradient-text">Adhekary</span></h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-8">Sr. Executive (HR, Admin & Payroll) with 5+ years of expertise in corporate management and operational efficiency.</p>
+        
+        <!-- Download CV Button -->
+        <a href="cv/Mithun Chandra Adhekary.pdf" download 
+           class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-900/20">
+           <i class="fas fa-download mr-2"></i> Download CV
+        </a>
+    </div>
+</section>
+
+    
+
+	
+
+    <!-- Experience & Skills Section -->
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16">Professional Journey</h2>
+        
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Experience -->
+            <div class="glass p-8 rounded-3xl">
+                <h3 class="text-2xl font-bold mb-6 text-blue-400"><i class="fas fa-briefcase mr-2"></i> 5+ Years Experience</h3>
+                <div class="space-y-6">
+                    <div class="border-l-2 border-blue-500 pl-4">
+                        <h4 class="font-bold text-lg">Senior Executive (HR, Admin & Payroll)</h4>
+                        <p class="text-gray-400">AJI Group | Present</p>
+                        <p class="text-sm mt-2 text-gray-300">Leading payroll processing, employee management, and administrative strategy with high accuracy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="glass p-8 rounded-3xl">
+                <h3 class="text-2xl font-bold mb-6 text-purple-400"><i class="fas fa-tools mr-2"></i> Core Competencies</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <span class="bg-slate-800 p-3 rounded-lg text-center">Payroll Management</span>
+                    <span class="bg-slate-800 p-3 rounded-lg text-center">HR Strategy</span>
+                    <span class="bg-slate-800 p-3 rounded-lg text-center">Advanced Excel</span>
+                    <span class="bg-slate-800 p-3 rounded-lg text-center">Labor Law</span>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="py-24 px-6 bg-[#05050f] text-white">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16">Technical Skills Proficiency</h2>
+        
+        <div class="space-y-10">
+            <!-- Software Operations -->
+            <div>
+                <div class="flex justify-between mb-2">
+                    <span class="font-semibold">Software Operations</span>
+                    <span>90%</span>
+                </div>
+                <div class="h-3 w-full bg-slate-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-blue-500 rounded-full w-[90%] transition-all duration-1000"></div>
+                </div>
+            </div>
+
+            <!-- Advanced Excel -->
+            <div>
+                <div class="flex justify-between mb-2">
+                    <span class="font-semibold">Advanced Excel</span>
+                    <span>85%</span>
+                </div>
+                <div class="h-3 w-full bg-slate-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-purple-500 rounded-full w-[85%] transition-all duration-1000"></div>
+                </div>
+            </div>
+
+            <!-- Microsoft Office -->
+            <div>
+                <div class="flex justify-between mb-2">
+                    <span class="font-semibold">Microsoft Office</span>
+                    <span>90%</span>
+                </div>
+                <div class="h-3 w-full bg-slate-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-indigo-500 rounded-full w-[90%] transition-all duration-1000"></div>
+                </div>
+            </div>
+
+            <!-- PowerPoint -->
+            <div>
+                <div class="flex justify-between mb-2">
+                    <span class="font-semibold">PowerPoint</span>
+                    <span>80%</span>
+                </div>
+                <div class="h-3 w-full bg-slate-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-emerald-500 rounded-full w-[80%] transition-all duration-1000"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<section class="py-24 px-6 bg-[#05050f]">
+    <h2 class="text-4xl font-bold text-center mb-16 text-white">Work Portfolio Showcase</h2>
+    
+    <!-- Slider Container -->
+    <div class="swiper mySwiper max-w-5xl">
+        <div class="swiper-wrapper">
+            
+            <!-- Slide 1: Software Ops -->
+            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/softwer_opretion/sof-1.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Software Operations</h3>
+                    </div>
+                </div>
+            </div>
+			            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/softwer_opretion/sof-2.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Software Operations</h3>
+                    </div>
+                </div>
+            </div>
+			            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/softwer_opretion/sof-3.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Software Operations</h3>
+                    </div>
+                </div>
+            </div>
+			            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/softwer_opretion/sof-4.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Software Operations</h3>
+                    </div>
+                </div>
+            </div>
+			            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/softwer_opretion/sof-5.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Software Operations</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Advanced Excel -->
+            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/excel/19.jpg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Advanced Excel</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/excel/20.jpg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Advanced Excel</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/excel/21.jpg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Advanced Excel</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/excel/22.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Advanced Excel</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/excel/23.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Advanced Excel</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/excel/24.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">Advanced Excel</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: MS Office -->
+            <div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/ms/ms-1.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">MS Office Suite</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/ms/ms-2.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">MS Office Suite</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/ms/ms-3.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">MS Office Suite</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/ms/ms-4.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">MS Office Suite</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide p-4">
+                <div class="h-80 rounded-3xl overflow-hidden border border-white/10 shadow-xl">
+                    <img src="asset/img/ms/ms-5.jpeg" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 p-6 bg-gradient-to-t from-black w-full">
+                        <h3 class="text-xl font-bold text-white">MS Office Suite</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination mt-10"></div>
+    </div>
+</section>
+
+<section class="py-24 px-6 bg-gradient-to-b from-[#0f172a] to-[#020617] text-white">
+    <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4">Core Professional Responsibilities</h2>
+            <p class="text-gray-400">As a Senior Executive, I ensure operational excellence through systematic management.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- HR Management -->
+            <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-blue-500 transition-all duration-300">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fas fa-users"></i></div>
+                <h3 class="text-xl font-bold mb-4">Human Resources</h3>
+                <ul class="text-sm text-gray-300 space-y-3">
+                    <li>• End-to-end recruitment process management.</li>
+                    <li>• Employee life-cycle and performance tracking.</li>
+                    <li>• Ensuring compliance with Labor Law policies.</li>
+                </ul>
+            </div>
+
+            <!-- Payroll Processing -->
+            <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-purple-500 transition-all duration-300">
+                <div class="text-purple-400 text-3xl mb-4"><i class="fas fa-calculator"></i></div>
+                <h3 class="text-xl font-bold mb-4">Payroll Operations</h3>
+                <ul class="text-sm text-gray-300 space-y-3">
+                    <li>• Accurate monthly salary sheet generation.</li>
+                    <li>• Tax deduction and statutory compliance.</li>
+                    <li>• Leave and attendance data reconciliation.</li>
+                </ul>
+            </div>
+
+            <!-- Admin & Operations -->
+            <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-indigo-500 transition-all duration-300">
+                <div class="text-indigo-400 text-3xl mb-4"><i class="fas fa-building"></i></div>
+                <h3 class="text-xl font-bold mb-4">Admin & Operations</h3>
+                <ul class="text-sm text-gray-300 space-y-3">
+                    <li>• Asset and office facility management.</li>
+                    <li>• Procurement and vendor coordination.</li>
+                    <li>• Streamlining daily office administration.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-20 px-6 bg-[#05050f] text-white">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 border-l-4 border-blue-500 pl-4">SPECIAL QUALIFICATIONS</h2>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Skill Cards -->
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-blue-600/20 transition-all">
+                <h3 class="font-bold text-blue-400 mb-2">Technical Proficiency</h3>
+                <p class="text-sm text-gray-300">Advanced MS Excel (Payroll Reports, VLOOKUP, Pivot Table, MIS Reporting)</p>
+            </div>
+            
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-blue-600/20 transition-all">
+                <h3 class="font-bold text-blue-400 mb-2">Software Expertise</h3>
+                <p class="text-sm text-gray-300">HR & Payroll Software: Mylink, Jibika, Kormee, ERP Software Management</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-blue-600/20 transition-all">
+                <h3 class="font-bold text-blue-400 mb-2">Core HR Operations</h3>
+                <p class="text-sm text-gray-300">Payroll, Attendance, Leave Management, and Employee Database Management</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-blue-600/20 transition-all">
+                <h3 class="font-bold text-blue-400 mb-2">Compliance & Audit</h3>
+                <p class="text-sm text-gray-300">Social Compliance Audit and Labor Law Compliance</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-blue-600/20 transition-all">
+                <h3 class="font-bold text-blue-400 mb-2">Documentation & Admin</h3>
+                <p class="text-sm text-gray-300">HR Reporting, Documentation, and Office Administration</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-blue-600/20 transition-all">
+                <h3 class="font-bold text-blue-400 mb-2">Technical Skills</h3>
+                <p class="text-sm text-gray-300">Website Design & Development</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="py-20 px-6 bg-[#05050f]">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-10 border-l-4 border-blue-500 pl-4">PERSONAL INFORMATION</h2>
+        
+        <div class="overflow-x-auto">
+            <table class="w-full text-left text-gray-300 border-collapse">
+                <tbody>
+                    <tr class="border-b border-white/10">
+                        <td class="py-4 font-semibold text-gray-400">Father's Name</td>
+                        <td class="py-4">: Prodip Kumar Adhekary</td>
+                        <td class="py-4 font-semibold text-gray-400 pl-8">Permanent Addr.</td>
+                        <td class="py-4">: Bagzana, Panchbibi, Joypurhat</td>
+                    </tr>
+                    <tr class="border-b border-white/10">
+                        <td class="py-4 font-semibold text-gray-400">Mother's Name</td>
+                        <td class="py-4">: Jothi Rani Adhikery</td>
+                        <td class="py-4 font-semibold text-gray-400 pl-8">Present Addr.</td>
+                        <td class="py-4">: Bagbari, Tetuljora, Hemayetpur, Saver, Dhaka</td>
+                    </tr>
+                    <tr class="border-b border-white/10">
+                        <td class="py-4 font-semibold text-gray-400">Date of Birth</td>
+                        <td class="py-4">: 15 August, 1989</td>
+                        <td class="py-4 font-semibold text-gray-400 pl-8">Marital Status</td>
+                        <td class="py-4">: Married</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 font-semibold text-gray-400">Religion</td>
+                        <td class="py-4">: Hindu</td>
+                        <td class="py-4 font-semibold text-gray-400 pl-8">Experience</td>
+                        <td class="py-4">: 5+ Years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- Swiper JS Script -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: { delay: 2500, disableOnInteraction: false },
+        pagination: { el: ".swiper-pagination", clickable: true },
+        breakpoints: { 768: { slidesPerView: 2 } }
+    });
+</script>
+
+    <!-- Contact Section -->
+    <section class="py-24 text-center">
+        <h2 class="text-4xl font-bold mb-8">Let's Connect</h2>
+        <a href="mailto:iconicfeedback@gmail.com" class="bg-blue-600 px-10 py-4 rounded-full font-bold hover:scale-105 transition">Send a Message</a>
+    </section>
+	<section class="py-16 px-6 bg-[#0a0a1a] text-white">
+    <div class="max-w-4xl mx-auto glass p-10 rounded-3xl border border-white/10 shadow-2xl">
+        <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Contact Information</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+            <!-- Name -->
+            <div class="p-4">
+                <div class="text-blue-400 mb-2"><i class="fas fa-user"></i></div>
+                <h3 class="text-gray-400 text-sm uppercase tracking-wider">Name</h3>
+                <p class="text-lg font-semibold">Mithun Chandra Adhekary</p>
+            </div>
+
+            <!-- Phone -->
+            <div class="p-4">
+                <div class="text-blue-400 mb-2"><i class="fas fa-phone"></i></div>
+                <h3 class="text-gray-400 text-sm uppercase tracking-wider">Mobile</h3>
+                <p class="text-lg font-semibold">01948245377</p>
+                <p class="text-sm text-gray-400">01796805040 (WhatsApp)</p>
+            </div>
+
+            <!-- Email -->
+            <div class="p-4">
+                <div class="text-blue-400 mb-2"><i class="fas fa-envelope"></i></div>
+                <h3 class="text-gray-400 text-sm uppercase tracking-wider">Email</h3>
+                <p class="text-lg font-semibold break-all">adhikaryponkaj@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-[#020617] py-12 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+        <!-- Brand/Name -->
+        <h2 class="text-2xl font-bold text-white mb-4">Mithun Chandra Adhikary</h2>
+        <p class="text-gray-400 mb-8 max-w-lg mx-auto">
+            Senior Executive (HR, Admin & Payroll) | Committed to excellence, operational integrity, and modern management solutions.
+        </p>
+
+        <!-- Social Links/Quick Icons -->
+        <div class="flex justify-center space-x-6 mb-8">
+            <a href="https://linkedin.com/in/mithun-chandra-adhekary-ad40" class="text-gray-400 hover:text-blue-500 transition-colors"><i class="fab fa-linkedin text-2xl"></i></a>
+            <a href="https://github.com/ponkaj202323" class="text-gray-400 hover:text-blue-500 transition-colors"><i class="fab fa-github text-2xl"></i></a>
+            <a href="mailto:adhikaryponkaj@gmail.com" class="text-gray-400 hover:text-blue-500 transition-colors"><i class="fas fa-envelope text-2xl"></i></a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-t border-white/5 pt-8">
+            <p class="text-gray-500 text-sm">
+                &copy; 2026 Mithun Chandra Adhikary. All rights reserved.
+            </p>
+            <p class="text-gray-600 text-xs mt-2">
+                Designed: Mithun Chandra Adhekary.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
